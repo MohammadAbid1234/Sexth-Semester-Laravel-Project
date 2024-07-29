@@ -77,6 +77,12 @@
                     </form>
 
                     <p class="text-center mt-3" style="color: orange;">Please sign in first.</p>
+                    <div class="col-sm-8">
+                        <ol class="breadcrumb float-sm-right">
+                            <li class="breadcrumb-item  "><a href="{{ route('register') }}" class="text-center">Regester</a></li>
+                            {{-- <li class="breadcrumb-item active">Dashboard</li> --}}
+                        </ol>
+                    </div><!-- /.col -->
                 @endauth
             </div>
         </div>
